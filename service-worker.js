@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "%7BGithub-username%7D.github.io/%7BGithub-repo-name%7D/precache-manifest.703680e357aec10fd507c83275f56088.js"
+  "/motherDairy/precache-manifest.7d3d74f90918d06b0802554ce0035fca.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("%7BGithub-username%7D.github.io/%7BGithub-repo-name%7D/index.html", {
+workbox.routing.registerNavigationRoute("/motherDairy/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
