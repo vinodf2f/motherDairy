@@ -2,7 +2,7 @@
   "name": "counter-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://{Github-username}.github.io/{Github-repo-name}",
+  "homepage": "http://vinodf2f.github.io/motherDairy",
   "main": "./src/electron.js",
   "dependencies": {
     "electron": "^10.1.3",
